@@ -1,1 +1,1 @@
-docker run --gpus all -it --shm-size=16gb -v $(pwd):/root/mnt -p 8889:8888 -p 5901:5900 -p 6007:6006 --name mariogan rokah/pytorch_rl_openjdk11
+docker run --gpus all -it --shm-size=16gb -v $(pwd):/root/mnt -p 8889:8888 -p 5901:5900 -p 6007:6006 --name test rokahikou/pytorch_rl_openjdk11

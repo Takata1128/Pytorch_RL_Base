@@ -1,4 +1,4 @@
-FROM rokah/pytorch_rl_base:latest
+FROM rokahikou/pytorch_rl_base:latest
 
 # openjdk
 RUN echo "deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu focal main" > /etc/apt/sources.list.d/openjdk.list &&\
